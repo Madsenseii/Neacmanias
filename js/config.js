@@ -12,7 +12,7 @@ const CONFIG={
   // "razorpay": esports entries are added to the cart and paid here (only if your gateway permits it).
   esportsMode:"manual",
   earlyBirdUntil:"2026-10-31T23:59:59+05:30", // early-bird prices (the "eb" field of each item) end here
-  siteUrl:"",           // optional: public https URL of this page, used inside ticket QR codes (blank = current page URL)
+  siteUrl:"https://neacmanias.vercel.app",           // optional: public https URL of this page, used inside ticket QR codes (blank = current page URL)
   streamUrl:"",         // optional: paste the live-stream link here and Online View tickets will show a WATCH LIVE button
   api:"/api"            // optional serverless endpoints (create-order, verify, recover). The page works without them.
 };
